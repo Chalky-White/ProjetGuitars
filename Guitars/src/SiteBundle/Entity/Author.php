@@ -3,6 +3,7 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Author
@@ -28,6 +29,16 @@ class Author
      */
     private $name;
 
+    /**
+     * One Author has Many Guitar.
+     * @OneToMany(targetEntity="Guitar", mappedBy="Author")
+     */
+    private $guitars;
+
+    public function __construct() {
+        $this->guitars = new ArrayCollection();
+    }
+}
 
     /**
      * Get id
