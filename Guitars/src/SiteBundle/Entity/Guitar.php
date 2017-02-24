@@ -3,7 +3,7 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
+  
 /**
  * Guitar
  *
