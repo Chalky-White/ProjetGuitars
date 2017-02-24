@@ -31,7 +31,14 @@ class Guitar
     /**
      * @var string
      *
-     * @ORM\Column(name="picture", type="string", length=255, nullable=true)
+     * @ORM\Column(name="serie", type="string", length=150, nullable=true)
+     */
+    private $serie;
+
+    /**
+     * @var text
+     *
+     * @ORM\Column(name="picture", type="text", length=600, nullable=true)
      */
     private $picture;
 
@@ -103,6 +110,30 @@ class Guitar
     }
 
     /**
+     * Set serie
+     *
+     * @param string $serie
+     *
+     * @return Guitar
+     */
+    public function setSerie($serie)
+    {
+        $this->serie = $serie;
+
+        return $this;
+    }
+
+    /**
+     * Get serie
+     *
+     * @return string
+     */
+    public function getSerie()
+    {
+        return $this->serie;
+    }
+
+    /**
      * Set description
      *
      * @param string $description
@@ -119,7 +150,7 @@ class Guitar
     /**
      * Get description
      *
-     * @return string
+     * @return text
      */
     public function getDescription()
     {
@@ -129,7 +160,7 @@ class Guitar
     /**
      * Set picture
      *
-     * @param string $picture
+     * @param text $picture
      *
      * @return Guitar
      */
@@ -342,4 +373,3 @@ class Guitar
         return $this->neckWood;
     }
 }
-
