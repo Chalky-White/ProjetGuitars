@@ -3,6 +3,7 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
   
 /**
  * Guitar
@@ -97,6 +98,17 @@ class Guitar
      * @ORM\Column(name="neck_wood", type="string", length=255, nullable=true)
      */
     private $neckWood;
+
+    /**
+     * Many Guitar has One Author
+     * @ManyToOne(targetEntity="Author", mappedBy="Guitar")
+     */
+    private $authors;
+
+    public function __construct() {
+        $this->authors = new ArrayCollection();
+    }
+}
 
 
     /**

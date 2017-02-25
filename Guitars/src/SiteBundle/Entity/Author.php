@@ -39,7 +39,6 @@ class Author
         $this->guitars = new ArrayCollection();
     }
 }
-
     /**
      * Get id
      *
