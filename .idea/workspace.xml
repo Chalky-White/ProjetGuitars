@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8b57250-ada1-4348-ba9f-53fb23c37da1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/~$ivi du projet WORD .docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RELATIONS .docx" afterPath="$PROJECT_DIR$/RELATIONS .docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/~$LATIONS .docx" afterPath="$PROJECT_DIR$/~$LATIONS .docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Author.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Author.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="483">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="e#37#69#0#PHP" expanded="true" />
               </folding>
@@ -52,8 +55,104 @@
       <file leaf-file-name="Guitar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="135" column="18" lean-forward="false" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Newsletter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subtype1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subtype2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Type.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding>
+                <element signature="e#37#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding>
                 <element signature="e#37#69#0#PHP" expanded="true" />
               </folding>
@@ -69,8 +168,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" />
         <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php" />
       </list>
     </option>
   </component>
@@ -83,7 +190,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="868" />
+    <option name="width" value="899" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectView">
@@ -202,10 +309,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.23972602" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -285,12 +395,12 @@
       <workItem from="1488021221833" duration="645000" />
       <workItem from="1488021907463" duration="1684000" />
       <workItem from="1488023664261" duration="606000" />
-      <workItem from="1488025140713" duration="2032000" />
+      <workItem from="1488025140713" duration="7122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10198000" />
+    <option name="totallyTimeSpent" value="15288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,10 +412,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="868" height="775" extended-state="0" />
+    <frame x="-7" y="0" width="899" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25704226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24801812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -524,10 +634,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\SiteBundle\Entity\Guitar">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\SiteBundle\Entity\Guitar</OriginalElement>
+          <nodes>
+            <node x="" y="">\SiteBundle\Entity\Guitar</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="135" column="18" lean-forward="false" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
           </folding>
@@ -536,8 +673,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="483">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
           </folding>

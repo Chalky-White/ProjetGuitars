@@ -3,6 +3,8 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
+
 
 /**
  * Brand
@@ -27,6 +29,16 @@ class Brand
      * @ORM\Column(name="name", type="string", length=125)
      */
     private $name;
+
+    /**
+     * One Brand has Many Guitar.
+     * @OneToMany(targetEntity="Guitar", mappedBy="Brand")
+     */
+    private $guitars;
+
+    public function __construct() {
+        $this->guitars = new ArrayCollection();
+    }
 
 
     /**

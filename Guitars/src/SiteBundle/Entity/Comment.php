@@ -3,6 +3,8 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
+
 
 /**
  * Comment
@@ -34,6 +36,26 @@ class Comment
      * @ORM\Column(name="date_comment", type="datetime", nullable=true)
      */
     private $dateComment;
+
+    /**
+     * Many Comment has One Guitar.
+     * @ManyToOne(targetEntity="Guitar", mappedBy="Comment")
+     */
+    private $guitarss;
+
+    public function __construct() {
+        $this->guitars = new ArrayCollection();
+    }
+
+    /**
+     * Many Comment Has One User.
+     * @ManyToOne(targetEntity="User", mappedBy="Comment")
+     */
+    private $users;
+
+    public function __construct() {
+        $this->users = new ArrayCollection();
+    }
 
 
     /**

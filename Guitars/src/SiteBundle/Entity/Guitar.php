@@ -108,7 +108,49 @@ class Guitar
     public function __construct() {
         $this->authors = new ArrayCollection();
     }
-}
+
+    /**
+     * Many Guitar has One Brand
+     * @ManyToOne(targetEntity="Brand", mappedBy="Guitar")
+     */
+    private $brands;
+
+    public function __construct() {
+        $this->brands = new ArrayCollection();
+    }
+
+
+    /**
+     * Many Guitar has One Subtype2
+     * @ManyToOne(targetEntity="Subtype2", mappedBy="Guitar")
+     */
+    private $subtype2s;
+
+    public function __construct() {
+        $this->$subtype2s = new ArrayCollection();
+    }
+
+
+    /**
+     * Many Guitar has Many Tag
+     * @ManyToMany(targetEntity="Tag", mappedBy="Guitar")
+     */
+    private $tags;
+
+    public function __construct() {
+        $this->$tags = new ArrayCollection();
+    }
+
+
+    /**
+     * One Guitar has Many Comment
+     * @OneToMany(targetEntity="Comment", mappedBy="Guitar")
+     */
+    private $comments;
+
+    public function __construct() {
+        $this->$comments = new ArrayCollection();
+    }
 
 
     /**
