@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8b57250-ada1-4348-ba9f-53fb23c37da1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/~$ivi du projet WORD .docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RELATIONS .docx" afterPath="$PROJECT_DIR$/RELATIONS .docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/~$LATIONS .docx" afterPath="$PROJECT_DIR$/~$LATIONS .docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -283,12 +285,12 @@
       <workItem from="1488021221833" duration="645000" />
       <workItem from="1488021907463" duration="1684000" />
       <workItem from="1488023664261" duration="606000" />
-      <workItem from="1488025140713" duration="1439000" />
+      <workItem from="1488025140713" duration="2032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9605000" />
+    <option name="totallyTimeSpent" value="10198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
