@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8b57250-ada1-4348-ba9f-53fb23c37da1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Newsletter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php" />
-    </list>
+    <list default="true" id="b8b57250-ada1-4348-ba9f-53fb23c37da1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -395,12 +384,12 @@
       <workItem from="1488021221833" duration="645000" />
       <workItem from="1488021907463" duration="1684000" />
       <workItem from="1488023664261" duration="606000" />
-      <workItem from="1488025140713" duration="7122000" />
+      <workItem from="1488025140713" duration="7477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15288000" />
+    <option name="totallyTimeSpent" value="15643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
