@@ -3,8 +3,6 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection;
-
 
 /**
  * Subtype1
@@ -29,26 +27,6 @@ class Subtype1
      * @ORM\Column(name="name", type="string", length=125, nullable=true)
      */
     private $name;
-
-    /**
-     * Many Subtype1 has Many Subtype2.
-     * @ManyToMany(targetEntity="Subtype2", mappedBy="Subtype1")
-     */
-    private $subtypes2s;
-
-    public function __construct() {
-        $this->subtypes2s = new ArrayCollection();
-    }
-
-    /**
-     * Many Subtype1 has One Type.
-     * @ManyToOne(targetEntity="Type", mappedBy="Subtype1")
-     */
-    private $types;
-
-    public function __construct() {
-        $this->types = new ArrayCollection();
-    }
 
 
     /**

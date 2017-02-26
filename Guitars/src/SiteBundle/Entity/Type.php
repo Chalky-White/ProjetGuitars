@@ -3,8 +3,6 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection;
-
 
 /**
  * Type
@@ -29,16 +27,6 @@ class Type
      * @ORM\Column(name="name", type="string", length=125)
      */
     private $name;
-
-    /**
-     * One Type has Many Subtype1.
-     * @OneToMany(targetEntity="Subtype1", mappedBy="Type")
-     */
-    private $subtype1s;
-
-    public function __construct() {
-        $this->subtype1s = new ArrayCollection();
-    }
 
 
     /**

@@ -3,8 +3,6 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection;
-
 
 /**
  * Tag
@@ -29,16 +27,6 @@ class Tag
      * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
-
-    /**
-     * Many Tag has Many Guitar.
-     * @ManyToMany(targetEntity="Guitar", mappedBy="Tag")
-     */
-    private $guitars;
-
-    public function __construct() {
-        $this->guitars = new ArrayCollection();
-    }
 
 
     /**
