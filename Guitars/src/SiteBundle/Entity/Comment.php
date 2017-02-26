@@ -35,6 +35,20 @@ class Comment
      */
     private $dateComment;
 
+    /**
+     * Many Comments have One Guitar.
+     * @ORM\ManyToOne(targetEntity="Guitar", inversedBy="comments")
+     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
+     */
+    private $guitar;
+
+    /**
+     * Many Comments have One Guitar.
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="comments")
+     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
+     */
+    private $user;
+
 
     /**
      * Get id

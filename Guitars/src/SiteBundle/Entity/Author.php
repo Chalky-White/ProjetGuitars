@@ -30,15 +30,15 @@ class Author
     private $name;
 
     /**
-     * One Author has Many Guitar.
-     * @ORM\OneToMany (targetEntity="Guitar", mappedBy="Author")
+     * One Author has Many Guitars.
+     * @ORM\OneToMany (targetEntity="Guitar", mappedBy="author")
      */
     private $guitars;
 
     public function __construct() {
         $this->guitars = new ArrayCollection();
     }
-}
+
 
     /**
      * Get id

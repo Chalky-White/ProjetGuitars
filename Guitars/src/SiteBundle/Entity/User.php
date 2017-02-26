@@ -3,6 +3,7 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * User
@@ -34,6 +35,16 @@ class User
      * @ORM\Column(name="user_email", type="string", length=125)
      */
     private $userEmail;
+
+    /**
+     * One User has Many Comments.
+     * @ORM\OneToMany (targetEntity="Comment", mappedBy="user")
+     */
+    private $comments;
+
+    public function __construct() {
+        $this->comments = new ArrayCollection();
+    }
 
 
     /**

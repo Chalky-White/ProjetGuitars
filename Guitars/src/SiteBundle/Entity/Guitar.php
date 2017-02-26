@@ -3,6 +3,7 @@
 namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
   
 /**
  * Guitar
@@ -97,6 +98,47 @@ class Guitar
      * @ORM\Column(name="neck_wood", type="string", length=255, nullable=true)
      */
     private $neckWood;
+
+
+    /**
+     * Many Guitars have One Author.
+     * @ORM\ManyToOne(targetEntity="Author", inversedBy="guitars")
+     * @ORM\JoinColumn(name="author_id", referencedColumnName="id")
+     */
+    private $author;
+
+    /**
+     * Many Guitars have One Brand.
+     * @ORM\ManyToOne(targetEntity="Brand", inversedBy="guitars")
+     * @ORM\JoinColumn(name="brand_id", referencedColumnName="id")
+     */
+    private $brand;
+
+    /**
+     * Many Guitars have One Subtype2.
+     * @ORM\ManyToOne(targetEntity="Subtype2", inversedBy="guitars")
+     * @ORM\JoinColumn(name="subtype2_id", referencedColumnName="id")
+     */
+    private $subtype2;
+
+    /**
+     * One Guitar has Many Comments.
+     * @ORM\OneToMany (targetEntity="Comment", mappedBy="guitar")
+     */
+    private $comments;
+
+
+    /**
+     * Many Guitars have Many Tags.
+     * @ORM\ManyToMany(targetEntity="Tag", inversedBy="guitars")
+     * @ORM\JoinTable(name="guitars_tags")
+     */
+    private $tags;
+
+    public function __construct() {
+        $this->tags = new ArrayCollection();
+        $this->comments = new ArrayCollection();
+    }
 
 
     /**
