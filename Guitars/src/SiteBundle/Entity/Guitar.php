@@ -133,7 +133,7 @@ class Guitar
 
     /**
      * Many Guitar has Many Tag
-     * @ManyToMany(targetEntity="Tag", mappedBy="Guitar")
+     * @ManyToMany() (targetEntity="Tag", mappedBy="Guitar")
      */
     private $tags;
 
