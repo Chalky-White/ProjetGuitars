@@ -31,7 +31,7 @@ class Author
 
     /**
      * One Author has Many Guitar.
-     * @OneToMany(targetEntity="Guitar", mappedBy="Author")
+     * @ORM\OneToMany (targetEntity="Guitar", mappedBy="Author")
      */
     private $guitars;
 
