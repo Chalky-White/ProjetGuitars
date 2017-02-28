@@ -38,7 +38,10 @@ class Subtype1
 
     /**
      * Many Subtype1s have Many Subtype2s.
-     * @ORM\ManyToMany(targetEntity="Subtype2", inversedBy="subtype1s")
+     * @ORM\ManyToMany(targetEntity="Subtype2")
+     * @JoinTable(name="sub1_sub2",
+     *          joinColumns={@JoinColumn(name="sub1_id", referencedColumnName="id")},
+     *          inverseJoinColumns={@JoinColumn(name=sub2_id", referencedColumnName="id")})
      */
     private $subtype2s;
 
@@ -56,6 +59,65 @@ class Subtype1
     {
         return $this->id;
     }
+
+
+    /**
+     * Add subtype2
+     *
+     * @param Subtype2 $subtype2
+     *
+     * @return Subtype2
+     */
+    public function addSubtype2(Subtype2 $subtype2)
+    {
+        if (!$this->subtype2s->contains($subtype2)) {
+            $this->subtype2s->add($subtype2);
+            $subtype2->setSubtype1($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Remove subtype2
+     *
+     * @param Subtype2 $subtype2
+     *
+     * @return Subtype2
+     */
+    public function removeSubtype2(Subtype2 $subtype2)
+    {
+        if ($this->subtype2s->contains($subtype2)) {
+            $this->subtype2s->removeElement($subtype2);
+            $subtype2->setSubtype1(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get subtype2
+     *
+     * @return ArrayCollection
+     */
+    public function getSubtype2()
+    {
+        return $this->subtype2s;
+    }
+
+
+
+    /**
+     * Get type
+     *
+     * @return ArrayCollection
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+
 
     /**
      * Set name
@@ -81,4 +143,3 @@ class Subtype1
         return $this->name;
     }
 }
-

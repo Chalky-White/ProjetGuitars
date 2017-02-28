@@ -50,6 +50,53 @@ class Type
         return $this->id;
     }
 
+
+    /**
+     * Add subtype1
+     *
+     * @param Subtype1 $subtype1
+     *
+     * @return Subtype1
+     */
+    public function addSubtype1(Subtype1 $subtype1)
+    {
+        if (!$this->subtype1s->contains($subtype1)) {
+            $this->subtype1s->add($subtype1);
+            $subtype1->setType($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Remove subtype1
+     *
+     * @param Subtype1 $subtype1
+     *
+     * @return Subtype1
+     */
+    public function removeSubtype1(Subtype1 $subtype1)
+    {
+        if ($this->subtype1s->contains($subtype1)) {
+            $this->subtype1s->removeElement($subtype1);
+            $subtype1->setType(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get subtype1
+     *
+     * @return ArrayCollection
+     */
+    public function getSubtype1()
+    {
+        return $this->subtype1s;
+    }
+
+
+
     /**
      * Set name
      *
@@ -74,4 +121,3 @@ class Type
         return $this->name;
     }
 }
-

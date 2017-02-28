@@ -50,6 +50,55 @@ class Brand
         return $this->id;
     }
 
+
+    /**
+     * Add guitar
+     *
+     * @param Guitar $guitar
+     *
+     * @return Guitar
+     */
+    public function addGuitar(Guitar $guitar)
+    {
+        if (!$this->guitars->contains($guitar)) {
+            $this->guitars->add($guitar);
+            $guitar->setBrand($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Remove guitar
+     *
+     * @param Guitar $guitar
+     *
+     * @return Guitar
+     */
+    public function removeGuitar(Guitar $guitar)
+    {
+        if ($this->guitars->contains($guitar)) {
+            $this->guitars->removeElement($guitar);
+            $guitar->setBrand(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get guitars
+     *
+     * @return ArrayCollection
+     */
+    public function getGuitars()
+    {
+        return $this->guitars;
+    }
+
+
+
+
+
     /**
      * Set name
      *
@@ -74,4 +123,3 @@ class Brand
         return $this->name;
     }
 }
-

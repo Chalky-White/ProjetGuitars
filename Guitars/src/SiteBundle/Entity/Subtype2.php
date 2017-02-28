@@ -36,19 +36,9 @@ class Subtype2
     private $guitars;
 
 
-
-    /**
-     * Many Subtype2s have Many Subtype1s.
-     * @ORM\ManyToMany(targetEntity="Subtype1", inversedBy="subtype2s")
-     * @ORM\JoinTable(name="sub1s_sub2s")
-     */
-    private $subtype1s;
-
     public function __construct() {
-        $this->subtype1s = new ArrayCollection();
         $this->guitars = new ArrayCollection();
     }
-
 
 
     /**
@@ -60,6 +50,53 @@ class Subtype2
     {
         return $this->id;
     }
+
+
+    /**
+     * Add guitar
+     *
+     * @param Guitar $guitar
+     *
+     * @return Guitar
+     */
+    public function addGuitar(Guitar $guitar)
+    {
+        if (!$this->guitars->contains($guitar)) {
+            $this->guitars->add($guitar);
+            $guitar->setSubtype2($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Remove $guitar
+     *
+     * @param Guitar $guitar
+     *
+     * @return Guitar
+     */
+    public function removeGuitar(Guitar $guitar)
+    {
+        if ($this->guitars->contains($guitar)) {
+            $this->guitars->removeElement($guitar);
+            $guitar->setSubtype2(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get guitars
+     *
+     * @return ArrayCollection
+     */
+    public function getGuitars()
+    {
+        return $this->guitars;
+    }
+
+
 
     /**
      * Set name
@@ -85,4 +122,3 @@ class Subtype2
         return $this->name;
     }
 }
-

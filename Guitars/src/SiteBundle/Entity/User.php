@@ -57,6 +57,54 @@ class User
         return $this->id;
     }
 
+
+    /**
+     * Add comment
+     *
+     * @param Comment $comment
+     *
+     * @return Comment
+     */
+    public function addComment(Comment $comment)
+    {
+        if (!$this->comments->contains($comment)) {
+            $this->comments->add($comment);
+            $comment->setUser($this);
+        }
+
+        return $this;
+    }
+
+
+    /**
+     * Remove comment
+     *
+     * @param Comment $comment
+     *
+     * @return Comment
+     */
+    public function removeComment(Comment $comment)
+    {
+        if ($this->comments->contains($comment)) {
+            $this->comments->removeElement($comment);
+            $comment->setUser(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get comments
+     *
+     * @return ArrayCollection
+     */
+    public function getComments()
+    {
+        return $this->comments;
+    }
+
+
+
     /**
      * Set userPseudo
      *
@@ -105,4 +153,3 @@ class User
         return $this->userEmail;
     }
 }
-

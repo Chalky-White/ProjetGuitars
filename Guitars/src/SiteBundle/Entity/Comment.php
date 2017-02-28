@@ -60,6 +60,29 @@ class Comment
         return $this->id;
     }
 
+
+    /**
+     * Get guitar
+     *
+     * @return string
+     */
+    public function getGuitar()
+    {
+        return $this->guitar;
+    }
+
+
+    /**
+     * Get user
+     *
+     * @return string
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+
     /**
      * Set content
      *
@@ -108,4 +131,3 @@ class Comment
         return $this->dateComment;
     }
 }
-
