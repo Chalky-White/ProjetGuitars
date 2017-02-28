@@ -39,9 +39,7 @@ class Subtype1
     /**
      * Many Subtype1s have Many Subtype2s.
      * @ORM\ManyToMany(targetEntity="Subtype2")
-     * @JoinTable(name="sub1_sub2",
-     *          joinColumns={@JoinColumn(name="sub1_id", referencedColumnName="id")},
-     *          inverseJoinColumns={@JoinColumn(name=sub2_id", referencedColumnName="id")})
+     * @ORM\JoinTable(name="sub1_sub2")
      */
     private $subtype2s;
 

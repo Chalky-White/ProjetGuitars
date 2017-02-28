@@ -5,6 +5,8 @@ namespace SiteBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 
+
+
 /**
  * Guitar
  *
@@ -131,9 +133,7 @@ class Guitar
     /**
      * Many Guitars have Many Tags.
      * @ORM\ManyToMany(targetEntity="Tag")
-     * @ORM\JoinTable(name="guitars_tags",
-     *         joinColumns={@JoinColumn(name="guitar_id", referencedColumnName="id")},
-     *          inverseJoinColumns={@JoinColumn(name=tag_id", referencedColumnName="id")})
+     * @ORM\JoinTable(name="guitars_tags")
      */
     private $tags;
 
