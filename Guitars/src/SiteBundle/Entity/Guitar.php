@@ -4,7 +4,7 @@ namespace SiteBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
-  
+
 /**
  * Guitar
  *
@@ -130,8 +130,10 @@ class Guitar
 
     /**
      * Many Guitars have Many Tags.
-     * @ORM\ManyToMany(targetEntity="Tag", inversedBy="guitars")
-     * @ORM\JoinTable(name="guitars_tags")
+     * @ORM\ManyToMany(targetEntity="Tag")
+     * @ORM\JoinTable(name="guitars_tags",
+     *         joinColumns={@JoinColumn(name="guitar_id", referencedColumnName="id")},
+     *          inverseJoinColumns={@JoinColumn(name=tag_id", referencedColumnName="id")})
      */
     private $tags;
 
@@ -150,6 +152,130 @@ class Guitar
     {
         return $this->id;
     }
+
+    /**
+     * Add tag
+     *
+     * @param Tag $tag
+     *
+     * @return Tag
+     */
+    public function addTag(Tag $tag)
+    {
+        if (!$this->tags->contains($tag)) {
+            $this->tags->add($tag);
+            $tag->setGuitar($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Remove tag
+     *
+     * @param Tag $tag
+     *
+     * @return Tag
+     */
+    public function removeTag(Tag $tag)
+    {
+        if ($this->tags->contains($tag)) {
+            $this->tags->removeElement($tag);
+            $tag->setGuitar(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get tags
+     *
+     * @return ArrayCollection
+     */
+    public function getTag()
+    {
+        return $this->tags;
+    }
+
+
+    /**
+     * Add comment
+     *
+     * @param Comment $comment
+     *
+     * @return Comment
+     */
+    public function addComment(Comment $comment)
+    {
+        if (!$this->comments->contains($comment)) {
+            $this->comments->add($comment);
+            $comment->setGuitar($this);
+        }
+
+        return $this;
+    }
+
+
+    /**
+     * Remove comment
+     *
+     * @param Comment $comment
+     *
+     * @return Comment
+     */
+    public function removeComment(Comment $comment)
+    {
+        if ($this->comments->contains($comment)) {
+            $this->comments->removeElement($comment);
+            $comment->setGuitar(null);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get comments
+     *
+     * @return ArrayCollection
+     */
+    public function getComments()
+    {
+        return $this->comments;
+    }
+
+
+
+    /**
+     * Get author
+     *
+     * @return string
+     */
+    public function getAuthor()
+    {
+        return $this->author;
+    }
+
+
+    /**
+     * Get brand
+     *
+     * @return string
+     */
+    public function getBrand()
+    {
+        return $this->brand;
+    }
+
+    /**
+     * Get subtype2
+     *
+     * @return string
+     */
+    public function getSubtype2()
+    {
+        return $this->subtype2;
+    }
+
 
     /**
      * Set serie

@@ -30,16 +30,6 @@ class Tag
     private $name;
 
 
-    /**
-     * Many Tags have Many Guitars.
-     * @ORM\ManyToMany(targetEntity="Guitar", inversedBy="tags")
-     */
-    private $guitars;
-
-    public function __construct() {
-        $this->guitars = new ArrayCollection();
-    }
-
 
     /**
      * Get id
@@ -50,6 +40,8 @@ class Tag
     {
         return $this->id;
     }
+
+
 
     /**
      * Set name
@@ -75,4 +67,3 @@ class Tag
         return $this->name;
     }
 }
-
