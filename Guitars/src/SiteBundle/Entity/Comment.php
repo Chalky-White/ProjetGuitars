@@ -45,13 +45,9 @@ class Comment
     /**
      * Many Comments have One User.
      * @ORM\ManyToOne(targetEntity="User", inversedBy="comments")
-<<<<<<< HEAD
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
-=======
-     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")     */
 
->>>>>>> 1cca1a1312835ea84b21c03402db7f51bd91adf7
     private $user;
 
 
