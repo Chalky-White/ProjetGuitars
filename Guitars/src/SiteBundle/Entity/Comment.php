@@ -38,14 +38,14 @@ class Comment
     /**
      * Many Comments have One Guitar.
      * @ORM\ManyToOne(targetEntity="Guitar", inversedBy="comments")
-     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="guitar_id", referencedColumnName="id")
      */
     private $guitar;
 
     /**
-     * Many Comments have One Guitar.
+     * Many Comments have One User.
      * @ORM\ManyToOne(targetEntity="User", inversedBy="comments")
-     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
     private $user;
 

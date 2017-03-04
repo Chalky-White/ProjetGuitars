@@ -41,6 +41,7 @@ class User
      * @ORM\OneToMany (targetEntity="Comment", mappedBy="user")
      */
     private $comments;
+    
 
     public function __construct() {
         $this->comments = new ArrayCollection();
