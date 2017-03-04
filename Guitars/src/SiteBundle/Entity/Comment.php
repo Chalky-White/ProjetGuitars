@@ -43,10 +43,10 @@ class Comment
     private $guitar;
 
     /**
-     * Many Comments have One Guitar.
+     * Many Comments have One User.
      * @ORM\ManyToOne(targetEntity="User", inversedBy="comments")
-     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
-     */
+     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")     */
+
     private $user;
 
 
