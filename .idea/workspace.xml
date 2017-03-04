@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8b57250-ada1-4348-ba9f-53fb23c37da1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Guitars/.idea/ddf.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/guitars.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~$LATIONS .docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Suivi du projet WORD .docx" afterPath="$PROJECT_DIR$/Suivi du projet WORD .docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Guitars/app/config/tampon.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" afterPath="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,122 +21,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Author.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Guitar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="123" column="7" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subtype1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subtype2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ddf.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Guitars/.idea/ddf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml.dist" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/app/config/parameters.yml.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Type.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-              <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,7 +30,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Brand.php" />
-        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" />
         <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php" />
         <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php" />
         <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php" />
@@ -157,6 +39,8 @@
         <option value="$PROJECT_DIR$/Guitars/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php" />
         <option value="$PROJECT_DIR$/Guitars/.idea/ddf.php" />
+        <option value="$PROJECT_DIR$/Guitars/app/config/tampon.php" />
+        <option value="$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php" />
       </list>
     </option>
   </component>
@@ -168,10 +52,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-7" />
+    <option name="width" value="1177" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -323,14 +205,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/IMIE/COURS/25 - API REST" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -406,17 +292,18 @@
       <workItem from="1487956817277" duration="932000" />
       <workItem from="1488120281044" duration="6338000" />
       <workItem from="1488301020939" duration="1152000" />
+      <workItem from="1488307995585" duration="2666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12490000" />
+    <option name="totallyTimeSpent" value="15156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1177" height="775" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.250646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -469,6 +356,145 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2829">
+          <caret line="123" column="7" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/.idea/ddf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
@@ -483,6 +509,51 @@
           <caret line="123" column="7" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -577,6 +648,51 @@
           <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -594,6 +710,51 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -611,6 +772,51 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -628,6 +834,51 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -645,6 +896,51 @@
           <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -655,6 +951,51 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -672,6 +1013,51 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -693,18 +1079,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php">
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="2806">
+          <caret line="123" column="7" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+            <marker date="1488311420626" expanded="true" signature="5164:9206" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5173:5260" ph=" Set serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5299:5365" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5374:5426" ph=" Get serie ..." />
+            <marker date="1488311420626" expanded="true" signature="5459:5500" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5509:5608" ph=" Set description ..." />
+            <marker date="1488311420626" expanded="true" signature="5659:5737" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5746:5802" ph=" Get description ..." />
+            <marker date="1488311420626" expanded="true" signature="5841:5888" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="5897:5986" ph=" Set picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6029:6099" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6108:6162" ph=" Get picture ..." />
+            <marker date="1488311420626" expanded="true" signature="6197:6240" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6249:6351" ph=" Set dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6402:6480" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6489:6550" ph=" Get dateArticle ..." />
+            <marker date="1488311420626" expanded="true" signature="6589:6636" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6645:6740" ph=" Set videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6787:6861" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="6870:6926" ph=" Get videoLink ..." />
+            <marker date="1488311420626" expanded="true" signature="6963:7008" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7017:7110" ph=" Set seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7155:7227" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7236:7291" ph=" Get seoTitle ..." />
+            <marker date="1488311420626" expanded="true" signature="7327:7371" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7380:7471" ph=" Set seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7514:7584" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7593:7647" ph=" Get seoDesc ..." />
+            <marker date="1488311420626" expanded="true" signature="7682:7725" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7734:7823" ph=" Set micros ..." />
+            <marker date="1488311420626" expanded="true" signature="7864:7932" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="7941:7994" ph=" Get micros ..." />
+            <marker date="1488311420626" expanded="true" signature="8028:8070" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8079:8172" ph=" Set bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8217:8289" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8298:8353" ph=" Get bodyWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8389:8433" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8442:8545" ph=" Set fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8600:8682" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8691:8751" ph=" Get fretboardWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8792:8841" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="8850:8943" ph=" Set neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="8988:9060" ph="{...}" />
+            <marker date="1488311420626" expanded="true" signature="9069:9124" ph=" Get neckWood ..." />
+            <marker date="1488311420626" expanded="true" signature="9160:9204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/.idea/ddf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Guitar.php">
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="123" column="7" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
           </folding>
@@ -713,18 +1191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#37#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Type.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="23">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
           </folding>
@@ -733,7 +1201,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="23">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="e#37#69#0#PHP" expanded="true" />
@@ -751,54 +1219,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Guitars/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="230">
           <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Author.php">
+    <entry file="file://$PROJECT_DIR$/Guitars/app/config/tampon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="567">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Subtype2.php">
+    <entry file="file://$PROJECT_DIR$/Guitars/src/SiteBundle/Entity/Comment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guitars/.idea/ddf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="82">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
